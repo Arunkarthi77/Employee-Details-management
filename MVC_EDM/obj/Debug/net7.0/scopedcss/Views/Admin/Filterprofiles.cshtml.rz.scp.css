@@ -1,0 +1,32 @@
+.Emp[b-23hzysl1xx] {
+
+    margin-top: 3rem;
+    text-align: center;
+    font-size: larger;
+    color: white;
+}
+
+.profile-pic button[b-23hzysl1xx] {
+    width: 8rem;
+    margin-top: 13rem;
+    margin-left: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 5px 0 black;
+    cursor: pointer;
+}
+
+.title[b-23hzysl1xx] {
+    text-align: center;
+    font-size: larger;
+    color: white;
+}
+
+.col-md-8[b-23hzysl1xx] {
+    width: 8rem;
+}
+/* .whole {
+    background-image: linear-gradient(174.2deg, rgba(255, 244, 228, 1) 7.1%, rgba(240, 246, 238, 1) 67.4%);
+  } */
+.text[b-23hzysl1xx] {
+    color: rgb(0, 0, 0);
+}

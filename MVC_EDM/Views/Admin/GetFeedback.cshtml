@@ -1,0 +1,59 @@
+
+@model IEnumerable<Rating>
+  
+
+
+
+<style>
+    .container{
+        @* border: 2px solid black; *@
+         margin-top: 3rem;
+    }
+    .table th,td{       
+        border: 1px solid rgb(124, 75, 75);
+        width: 35rem;
+ }
+    
+        
+</style>
+
+@{
+    ViewData["Title"] = "GetFeedback";
+    Layout = "../Shared/AdminLayout";
+}
+<title>Ratings</title>
+<h1 style="text-align: center;">Ratings</h1>
+
+   
+    <div class="container">
+        <div class="table">
+            <table>
+            <thead>
+                <tr>
+                
+                <th>Employee Id</th>
+                <th>Feedback</th>
+                
+                </tr>
+            </thead>
+            <tbody>
+                 @foreach (var request in Model)
+                {
+                <tr>
+                    
+                    <td>@request.EmployeeId</td>
+                    <td>@request.Feedback</td>
+                    
+                </tr>
+                }
+            </tbody>
+            </table>
+        </div>
+
+    </div>
+   
+
+
+
+
+   

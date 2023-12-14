@@ -1,0 +1,117 @@
+@* <script type="text/javascript"> *@
+@* @model IEnumerable<EmployeeProfile> *@
+@* function dosearch() {
+var sf=document.searchform;
+var submitto = sf.sengines.options[sf.sengines.selectedIndex].value + escape(sf.searchterms.value);
+window.location.href = submitto;
+return false;
+}
+</script> *@
+@{
+    
+     Layout = "../Shared/AdminLayout";
+}
+<title>Employees</title>
+<form name="searchform" method="post" asp-action="Filterprofiles" asp-controller="Admin" >
+Search:
+<select id="searchtype" name="sengines" onchange="selectValue(this)" required>
+    <option ></option>
+    <option >EmployeeID</option>
+    <option >EmployeeName</option>
+    <option >Project Team</option>
+    <option >Hr Partner</option>
+    <option>Designation</option>
+    <option>Salary</option>
+    <option>State</option>
+    <option>Team Lead</option>
+    <option>Experience</option>
+    <option>Gender</option>
+   
+</select>
+For:   
+<input type="text" name="textvalue" required/>
+<input type="hidden" id = "selectedvalue" name="selectedvalue" />
+<input type="submit" name="SearchSubmit" value="Search">
+</form> 
+<div class="Emp"><h1> @ViewBag.employees</h1></div>
+
+<script type = "text/javascript">
+    function selectValue(searchtype) {
+        var selectedText = searchtype.options[searchtype.selectedIndex].innerHTML;
+        document.getElementById("selectedvalue").value = selectedText;
+    }
+</script>
+
+
+
+<style>
+   
+
+</style><br>
+<body class="whole" style="background-color:rgb(57, 82, 86);">
+  <div class="title"><h1>Employee List</h1></div> 
+        
+ @model IEnumerable<EmployeeProfile>  
+    <section class="vh-100" >
+      @foreach (var profile in Model)
+    {
+        <div class="container py-5 h-100" style="text-align: center;">
+            <div class="row d-flex justify-content-center align-items-center h-100" style="padding-left: 5%;">
+                <div class="col col-lg-6 mb-4 mb-lg-0">
+                    <div class="card mb-3" style="border-radius: .5rem;">
+                        @* <div class="row g-0" style="border:2px solid black;> *@
+                           <div class="profile-pic"  style="display: flex;background-color:#74888cb7">
+                            <div class="col-md-8" style="box-shadow:0 0 5px 0 black;">
+                                <div class="card-body p-4">
+                                    <h6>Profile</h6>
+                                  <hr class="mt-0 mb-4">
+                                    <div class="row pt-1">
+                                        <div class="col-6 mb-3">
+                                            <h6>Employee Name</h6>
+                                            <p class="text">@profile.EmployeeName</p>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <h6>Employee Id</h6>
+                                            <p class="text">@profile.EmployeeId</p>
+                                        </div>
+                                    </div> 
+                                    
+                                    <hr class="mt-0 mb-4">
+                                    <div class="row pt-1">
+                                        <div class="col-6 mb-3">
+                                            <h6>Email</h6>
+                                            <p class="text">@profile.mailid</p>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <h6>Phone</h6>
+                                            <p class="text">@profile.phonenumber</p>
+                                        </div>
+                                    </div>
+                                    <h6>Project </h6>
+                                    <hr class="mt-0 mb-4">
+                                    <div class="row pt-1">
+                                        <div class="col-6 mb-3">
+                                            <h6>Designation</h6>
+                                            <p class="text" >@profile.Designation</p>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <h6>Project Team</h6>
+                                            <p class="text" id="team" >@profile.team</p>
+                                        </div>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                            <div>
+                                <a asp-controller="Admin" asp-action="EmployeeProfile" asp-route-EmployeeId=@profile.EmployeeId >
+                                    <button type="submit" >View Profile</button></a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      }  </div>
+    </section>
+    
+</body>

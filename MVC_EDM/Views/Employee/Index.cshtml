@@ -1,0 +1,68 @@
+@{
+    
+    Layout = "../Shared/EmployeeLayout";
+}
+<style>
+    .whole-container{
+    /* border: 2px solid black; */
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-between;
+  }
+
+.whole-container .title-left{
+    /* border: 2px solid black; */
+    margin-top: 1rem;
+    margin-left: 4rem;
+    color: white;
+    width: 30%;
+}
+
+.whole-container .title-left h4{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 350;
+    font-size: 1.2rem;
+}
+
+.whole-container .title-left a{
+    /* border: 2px solid black; */
+    padding: .5rem;
+    margin-left: 2rem;
+    background-color: black;
+    color: white;
+    text-decoration: none;    
+    border-radius: .4rem;
+    box-shadow: 0 0 10px 0 black;
+}
+.whole-container .picture-right{
+    /* border: 2px solid black; */
+}
+
+.whole-container .picture-right img{
+    width: 35rem;
+    height: 35rem;
+
+}
+</style>
+<title>Employee Home</title>
+<p style="color: white;">@TempData["Cookies"]</p>
+
+<body style="background-color:rgb(57, 82, 86);">
+  <div class="whole-container">
+    <div class="title-left">
+      <h1>EMPLOYEE DETAILS MANAGEMENT</h1>
+      <h4>Employee management refers to the organizations efforts to support the success of its employees and also help
+        them meet the business goals for which they are responsible. It is a function of the companys HR or People
+        Operations team. <br><br><br>
+        The goal of employee management is to help employees develop their potential and maximize their contributions to
+        organizational success.<br><br><br>
+      </h4>
+      <a asp-controller="Employee" asp-action="MyProfile">View Profile</a>
+    </div>
+    <div class="picture-right">
+      <img src="../image/img-right.png">
+    </div>
+  </div>
+
+</body>

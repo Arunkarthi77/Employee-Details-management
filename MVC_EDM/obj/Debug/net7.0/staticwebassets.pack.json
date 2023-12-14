@@ -1,0 +1,141 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MVC_EDM.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MVC_EDM.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\css\\adminindex.css",
+      "PackagePath": "staticwebassets\\css\\adminindex.css"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\image\\Bg.jpg",
+      "PackagePath": "staticwebassets\\image\\Bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\image\\Details.webp",
+      "PackagePath": "staticwebassets\\image\\Details.webp"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\image\\EM-removebg-preview.png",
+      "PackagePath": "staticwebassets\\image\\EM-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\image\\Emp.jpg",
+      "PackagePath": "staticwebassets\\image\\Emp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\image\\Employee.avif",
+      "PackagePath": "staticwebassets\\image\\Employee.avif"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\image\\Security.jpg",
+      "PackagePath": "staticwebassets\\image\\Security.jpg"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\image\\admin.jpg",
+      "PackagePath": "staticwebassets\\image\\admin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\image\\bgimg.png",
+      "PackagePath": "staticwebassets\\image\\bgimg.png"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\image\\emp-removebg-preview.png",
+      "PackagePath": "staticwebassets\\image\\emp-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\image\\files.jpg",
+      "PackagePath": "staticwebassets\\image\\files.jpg"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\image\\human_resources_employee_search__1_-removebg-preview.png",
+      "PackagePath": "staticwebassets\\image\\human_resources_employee_search__1_-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\image\\img-right.png",
+      "PackagePath": "staticwebassets\\image\\img-right.png"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\arunk\\OneDrive\\Desktop\\c#\\Arunkumar S EmployeeDetailsManagement _GCT\\MVC_EDM\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MVC_EDM.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.MVC_EDM.props",
+      "PackagePath": "build\\MVC_EDM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MVC_EDM.props",
+      "PackagePath": "buildMultiTargeting\\MVC_EDM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.MVC_EDM.props",
+      "PackagePath": "buildTransitive\\MVC_EDM.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

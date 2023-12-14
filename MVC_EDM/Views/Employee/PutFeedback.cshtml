@@ -1,0 +1,56 @@
+@model Rating
+@{
+    Layout = "../Shared/EmployeeLayout";
+}
+
+<title>Feedback</title>
+      <!-- Modal Body-->
+      <div class="modal-body text-center">
+        <h1>@ViewBag.Message</h1>
+        <i class="far fa-file-alt fa-4x mb-3 animated rotateIn icon1"></i>
+        <h3>Your opinion matters</h3>
+        <h5>What are the things you want to change in our Company <strong>Give us your feedback.</strong></h5>
+        <hr>
+       
+      </div>
+      
+   <form method="post">
+     <!-- Radio Buttons for Rating-->
+        @* <div class="form-check mb-4">
+          <input name="feedback" asp-for="CompanyRating" type="radio">
+          <label class="ml-3">Very good</label>
+        </div>
+        <div class="form-check mb-4">
+          <input name="feedback" type="radio" asp-for="CompanyRating">
+          <label class="ml-3">Good</label>
+        </div>
+        <div class="form-check mb-4">
+          <input name="feedback" type="radio" asp-for="CompanyRating">
+          <label class="ml-3">Average</label>
+        </div>
+        <div class="form-check mb-4">
+          <input name="feedback" type="radio" asp-for="CompanyRating">
+          <label class="ml-3">Bad</label>
+        </div>
+        <div class="form-check mb-4">
+          <input name="feedback" type="radio" asp-for="CompanyRating">
+          <label class="ml-3">Very Bad</label>
+        </div>  *@
+
+      <!--Text Message-->
+      <div class="text-center">
+        <h4>What could we improve?</h4>
+      </div>
+      <div class="form-check mb-4" style="margin-left: 17%;">
+      <label>Feedback</label><br>
+      <textarea type="textarea" style="resize: none;" asp-for="Feedback"></textarea>
+      </div>
+      <div style="margin-left: 23%;">
+         <button type="submit">Submit</button>
+      </div>
+</form>
+      
+
+
+
+ 

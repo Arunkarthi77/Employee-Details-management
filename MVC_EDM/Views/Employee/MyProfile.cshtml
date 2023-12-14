@@ -1,0 +1,115 @@
+@model EmployeeProfile
+@{
+    ViewData["Title"] = "Profile";
+    Layout = "../Shared/EmployeeLayout";
+}
+<title>Employee Profile</title>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<style>
+    @* .whole {
+    background-image: linear-gradient(174.2deg, rgba(255, 244, 228, 1) 7.1%, rgba(240, 246, 238, 1) 67.4%);
+  } *@
+</style>
+
+<body class="whole" style="background-color:rgb(57, 82, 86);">
+    <div class="container rounded bg-white mt-5 mb-5" style="display: flex;">
+
+        <div class="row">
+            <div class="col-md-3 border-right">
+                <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+                    <img class="rounded-circle mt-5" src=@string.Format("data:image/jpg;base64,{0}", ViewBag.url)
+                        width="150px" height="150px"><br>
+                </div>
+
+
+            </div>
+
+
+            <div class="col-md-5 border-right">
+                <div class="p-3 py-5">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h2 class="center" style="padding-left: 20%;">Profile Details </h2>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-6"><label class="labels">Employee Id</label><input type="text"
+                                class="form-control" style="width:8rem" asp-for="EmployeeId" placeholder="Employee Id"
+                                readonly></div>
+                        <div class="col-md-6"><label class="labels">Employee Name</label><input type="text"
+                                asp-for="EmployeeName" class="form-control" style="width:8rem"
+                                placeholder="EmployeeName" readonly></div>
+
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-12"><label class="labels">Mobile Number</label><input type="number"
+                                asp-for="phonenumber" readonly class="form-control" placeholder="enter phone number"
+                                required></div>
+                        <div class="col-md-12"><label class="labels">Mail Id</label><input type="email" asp-for="mailid"
+                                readonly class="form-control" placeholder="enter mail id" required></div>
+                        <div class="col-md-12"><label class="labels">Address Line 1</label><input type="text"
+                                asp-for="addressline1" readonly class="form-control" placeholder="enter address line 1"
+                                required></div>
+                        <div class="col-md-12"><label class="labels">AddressLine2</label><input type="text"
+                                asp-for="addressline2" readonly class="form-control" placeholder="enter address line 2">
+                        </div>
+                        <div class="col-md-12"><label class="labels">Postcode</label><input type="number"
+                                asp-for="pincode" readonly class="form-control" placeholder="postcode" required></div>
+                        <div class="col-md-12"><label class="labels">State</label><input type="text" asp-for="state"
+                                readonly class="form-control" placeholder="state" required></div>
+                        <div class="col-md-12"><label class="labels">Area</label><input type="text" class="form-control"
+                                asp-for="area" readonly placeholder="area" required></div>
+                        <div class="col-md-12"><label class="labels">Education</label><input type="text"
+                                asp-for="education" readonly class="form-control" placeholder="education" required>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-6"><label class="labels">Country</label><input type="text" asp-for="country"
+                                readonly class="form-control" placeholder="country" required></div>
+                        <div class="col-md-6"><label class="labels">Aadhar Number</label><input type="number"
+                                asp-for="Aadharnumber" readonly class="form-control" placeholder="Aadhar Id" required>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="p-3 py-5"><br><br><br><br><br>
+
+                    <div class="col-md-12"><label class="labels">Experience </label><input type="text"
+                            asp-for="experience" readonly class="form-control" placeholder="experience"></div>
+
+                    <div class="col-md-12"><label class="labels">Project Team</label><input type="text" asp-for="team"
+                            readonly class="form-control" placeholder="Project team" required></div>
+                    <div class="col-md-12"><label class="labels">Team Lead</label><input type="text" asp-for="TeamLead"
+                            class="form-control" placeholder="Team Lead" readonly required></div>
+                    <div class="col-md-12"><label class="labels">Designation</label><input type="text"
+                            asp-for="Designation" readonly class="form-control" placeholder="Designation" required>
+                    </div>
+
+
+                    <div class="col-md-12"><label class="labels">HR Partner</label><input type="text"
+                            asp-for="hrpartner" readonly class="form-control" placeholder="hrpartner" required></div>
+                    <div class="col-md-12"><label class="labels">Date of Birth </label><input type="date"
+                            asp-for="dateofbirth" readonly class="form-control" placeholder="date of birth"
+                            min="1960-01-01" max="2010-12-31" required></div>
+                    <div class="col-md-12"><label class="labels">Date of Joining</label><input type="date"
+                            asp-for="dateofjoining" readonly class="form-control" placeholder="date of joining"
+                            min="2000-01-01" max="2023-12-31" required></div>
+                    <div class="col-md-12"><label class="labels">Gender</label><input type="text" asp-for="Gender" readonly
+                            class="form-control" placeholder="sex" required></div>
+                    <div class="col-md-12"><label class="labels">Salary</label><input type="number" asp-for="salary"
+                            class="form-control" placeholder="Salary" readonly required></div>
+                    <div class="form-group" style="padding-left:85px;"> <br>
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+</body>

@@ -1,0 +1,87 @@
+<style>
+    .container{
+        @* border: 2px solid black; *@
+         margin-top: 3rem;
+    }
+    .table th,td{       
+        border: 1px solid rgb(124, 75, 75);
+        width: 20rem;
+ }
+    
+        
+</style>
+
+@{
+    ViewData["Title"] = "Profile";
+    Layout = "../Shared/AdminLayout";
+}
+<title>Employee Requests</title>
+<h1 style="text-align: center;">Employee Requests</h1>
+@* @model IEnumerable<Request> *@
+    @model UserRequsetViewModel
+   
+    <div class="container">
+        <div class="table">
+            <table>
+            <thead>
+                <tr>
+                <th>Employee Id</th>
+                <th>Employee Name</th>
+                <th>Request</th>
+                <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                 @foreach (var request in Model.RequestViewModel)
+                {
+                <tr>
+                    <td>@request.EmployeeId</td>
+                    <td>@request.EmployeeName</td>
+                    <td>@request.Requestfor</td>
+                    <td>@request.Description</td>
+                </tr>
+                }
+            </tbody>
+            </table>
+        </div>
+
+    </div>
+    <h1 class="text-center">Contact users</h1>
+    <div class="container">
+         <div class="table">
+            <table>
+            <thead>
+                <tr>
+                
+                <th>Employee Id</th>
+                <th>Employee Name</th>
+                <th>Email</th>
+                <th>Mobile Number</th>
+                
+                </tr>
+            </thead>
+            <tbody>
+                 @* @foreach (var item in ViewBag.users) *@
+                  @foreach (var item in Model.EmployeeProfileViewModel)
+                {
+                <tr>
+                    
+                    <td>@item.EmployeeId</td>
+                    <td>@item.EmployeeName</td>
+                    <td>@item.mailid</td>
+                    <td>@item.phonenumber</td>
+                    
+                </tr>
+                }
+            </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+
+
+   

@@ -1,0 +1,124 @@
+/* _content/MVC_EDM/Views/Admin/Filterprofiles.cshtml.rz.scp.css */
+.Emp[b-23hzysl1xx] {
+
+    margin-top: 3rem;
+    text-align: center;
+    font-size: larger;
+    color: white;
+}
+
+.profile-pic button[b-23hzysl1xx] {
+    width: 8rem;
+    margin-top: 13rem;
+    margin-left: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 5px 0 black;
+    cursor: pointer;
+}
+
+.title[b-23hzysl1xx] {
+    text-align: center;
+    font-size: larger;
+    color: white;
+}
+
+.col-md-8[b-23hzysl1xx] {
+    width: 8rem;
+}
+/* .whole {
+    background-image: linear-gradient(174.2deg, rgba(255, 244, 228, 1) 7.1%, rgba(240, 246, 238, 1) 67.4%);
+  } */
+.text[b-23hzysl1xx] {
+    color: rgb(0, 0, 0);
+}
+/* _content/MVC_EDM/Views/Admin/FilterRemovedEmployees.cshtml.rz.scp.css */
+.Emp[b-hq36p7jr2c] {
+
+    margin-top: 3rem;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    /* background: -webkit-linear-gradient(#12cab8f7, #99dc06);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.profile-pic button[b-hq36p7jr2c] {
+    width: 8rem;
+    margin-top: 13rem;
+    margin-left: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 5px 0 black;
+    cursor: pointer;
+}
+
+.title[b-hq36p7jr2c] {
+    text-align: center;
+    font-size: larger;
+    color: white;
+    /* background: -webkit-linear-gradient(#12cab8f7, #99dc06);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
+}
+
+.col-md-8[b-hq36p7jr2c] {
+    width: 8rem;
+}
+
+/* .whole {
+    background-image: linear-gradient(174.2deg, rgba(255, 244, 228, 1) 7.1%, rgba(240, 246, 238, 1) 67.4%);
+  } */
+
+.text[b-hq36p7jr2c] {
+    color: rgb(0, 0, 0);
+}
+/* _content/MVC_EDM/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-c7lv42z5km] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-c7lv42z5km] {
+  color: #0077cc;
+}
+
+.btn-primary[b-c7lv42z5km] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-c7lv42z5km], .nav-pills .show .nav-link[b-c7lv42z5km] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-c7lv42z5km] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-c7lv42z5km] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-c7lv42z5km] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-c7lv42z5km] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-c7lv42z5km] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

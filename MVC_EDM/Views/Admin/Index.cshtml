@@ -1,0 +1,36 @@
+@{
+  ViewData["Title"] = "Admin Home";
+  Layout = "../Shared/AdminLayout";
+}
+<title>Admin Home</title>
+<link rel="stylesheet" href="~/css/adminindex.css" asp-append-version="true" />
+ <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MVC_EDM.styles.css" asp-append-version="true" />
+   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+@ViewBag.Message
+@ViewBag.delete
+<p style="color: white;">@TempData["Cookies"]</p>
+
+<body style="background-color:rgb(57, 82, 86);">
+  <div class="whole-container">
+    <div class="title-left">
+      <h1>EMPLOYEE DETAILS MANAGEMENT</h1>
+      <h4>Employee management refers to the organizations efforts to support the success of its employees and also help
+        them meet the business goals for which they are responsible. It is a function of the companys HR or People
+        Operations team. <br><br><br>
+        The goal of employee management is to help employees develop their potential and maximize their contributions to
+        organizational success.<br><br><br>
+      </h4>
+      <a asp-controller="Admin" asp-action="CreateEmployee">Add Employee</a>
+    </div>
+    <div class="picture-right">
+      <img src="../image/img-right.png">
+    </div>
+  </div>
+
+
+</body>
+@*background="../image/admin.jpg" style="background-size:cover; background-repeat:no"*@
